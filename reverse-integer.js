@@ -1,8 +1,14 @@
 var reverse = function(x) {
-    let output = 0;  //initialising the reverse value as 0 at beginning
-    while(x!=0){ // to stop the while loop once we have completed the reversal
-        output = (output * 10) + (x % 10); // maths formula to insert the digit to the number (like in the equation 2 (see the approach section of this solution))
-        x = (x - (x % 10))/10; // maths formula to delete the last digit using equation 1 (see the approach section of this solution)
+    let output = 0;  // menginisialisasi nilai balik sebagai 0 di awal
+    while(x!=0){ // untuk menghentikan perulangan while setelah kita menyelesaikan pembalikan
+        output = (output * 10) + (x % 10); // rumus matematika untuk menyisipkan digit ke angka (seperti pada persamaan 2 (lihat bagian pendekatan solusi ini))
+        x = (x - (x % 10))/10; // rumus matematika untuk menghapus digit terakhir menggunakan persamaan 1 (lihat bagian pendekatan solusi ini)
     }  
-    return output; // returning the result
+    return output; // mengembalikan hasilnya
 };
+
+
+
+
+
+ 
