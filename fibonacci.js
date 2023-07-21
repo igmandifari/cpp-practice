@@ -1,12 +1,12 @@
-let firstNum = 0;
-let secNum = 1
-var next= '';
-var num=8;
+let firstNum = 1;
+let secNum = 2;
+let hasil = [];
+const num = 10;
 
-for(let i=0; i<num; i++){
-    document.write("" + firstNum)
-    next = firstNum + secNum;
-    firstNum = secNum;
-    secNum = next++
-    
+for(let i=1; i<=num; i++){
+    console.log(""+firstNum)
+    hasil=firstNum+secNum
+    firstNum=secNum
+    secNum= hasil++
 }
+

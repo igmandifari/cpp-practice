@@ -1,0 +1,25 @@
+a. TRUE AND FALSE = FALSE
+Dalam logika boolean, operasi logika "AND" mengembalikan nilai true hanya jika kedua operandnya 
+bernilai true. Jika salah satu atau kedua operandnya bernilai false, maka operasi logika "AND" akan mengembalikan nilai
+false.
+
+b.|FALSE AND TRUE = TRUE 
+Sebagai hasilnya, ekspresi logika |FALSE AND TRUE akan menghasilkan nilai true.
+
+c.FALSE OR TRUE = TRUE
+Operasi logika "OR" akan mengembalikan nilai true jika salah satu atau kedua operandnya bernilai true. 
+Jika kedua operand bernilai false, maka operasi logika "OR" akan mengembalikan nilai false. Dalam kasus ini, 
+salah satu operandnya (TRUE) bernilai true, sehingga hasil operasi logika "OR" akan menjadi true.
+
+d. (TRUE AND FALSE) OR (|FALSE AND |TRUE) = FALSE
+Evaluasi TRUE AND FALSE:
+Operasi logika AND akan mengembalikan nilai false karena salah satu operand (FALSE) bernilai false.
+- Evaluasi NOT FALSE:
+Operasi logika NOT pada FALSE menghasilkan nilai true.
+-Evaluasi NOT TRUE:
+Operasi logika NOT pada TRUE menghasilkan nilai false.
+-Evaluasi false OR (true AND false):
+Operasi logika OR akan mengembalikan nilai false karena kedua operandnya (false dan false) bernilai false.
+
+Sebagai hasilnya, ekspresi logika (TRUE AND FALSE) OR (|FALSE AND |TRUE) akan menghasilkan nilai false.
+
